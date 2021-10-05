@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<evolution>
+    <todosJuegos>
+        <dota2>
+            <identificador>dota2</identificador>
+            <nombre>Dota 2</nombre>
+            <imagen>recursos\dota2.jpg</imagen>
+            <descripcion>Dota 2 es un videojuego perteneciente al género de Arena de batalla en línea ARTS («estrategia de acción en tiempo real»), también conocido como MOBA, lanzado el 9 de julio del año 2013. El juego fue desarrollado por la empresa Valve Corporation</descripcion>
+            <fecha-lanzamiento>13 de octubre de 2010</fecha-lanzamiento>
+            <ranking-actual>https://www.dota2.com/leaderboards/?l=spanish#europe-0</ranking-actual>
+            <trailer>https://www.youtube.com/embed/S_Rlts_pEps</trailer>
+            <etiquetas>dota, dota 2, dota2, 2</etiquetas>
+        </dota2>
+        <callofduty>
+            <identificador>callofduty</identificador>
+            <nombre>Call of Duty: Warzone</nombre>
+            <imagen>recursos\callofduty.jpg</imagen>
+            <descripcion>Call of Duty: Warzone es un videojuego de disparos en primera persona, perteneciente al Battle royale gratuito, lanzado el 10 de marzo de 2020 para PlayStation 4, PlayStation 5, Xbox One, Xbox Series X|S y Microsoft Windows.</descripcion>
+            <fecha-lanzamiento>8 de marzo de 2020</fecha-lanzamiento>
+            <ranking-actual>https://cod.tracker.gg/warzone/leaderboards/stats/all/Wins</ranking-actual>
+            <trailer>https://www.youtube.com/embed/0E44DClsX5Q</trailer>
+            <etiquetas>call of duty, calo, call, of, duty</etiquetas>
+        </callofduty>
+        <lol>
+            <identificador>lol</identificador>
+            <nombre>League of Legends</nombre>
+            <imagen>recursos\lol.jpg</imagen>
+            <descripcion>League of Legends (también conocido por sus siglas LoL) es un videojuego del género multijugador de arena de batalla en línea (MOBA) y deporte electrónico el cual fue desarrollado por Riot Games para Microsoft Windows y OS X y para consolas digitales.</descripcion>
+            <fecha-lanzamiento>27 de octubre de 2009</fecha-lanzamiento>
+            <ranking-actual>https://lolesports.com/standings</ranking-actual>
+            <trailer>https://www.youtube.com/embed/KpxjwIaW0EM</trailer>
+            <etiquetas>league, of, legends. league of legends, lol</etiquetas>
+        </lol>
+        <csgo>
+            <identificador>csgo</identificador>
+            <nombre>CS:GO</nombre>
+            <imagen>recursos\csgo.jpg</imagen>
+            <descripcion>Counter-Strike: Global Offensive (CS:GO) es un videojuego de disparos en primera persona desarrollado por Valve Corporation en cooperación con Hidden Path Entertainment, y es el cuarto juego de la saga Counter-Strike, sin contar Counter-Strike: Online.</descripcion>
+            <fecha-lanzamiento>21 de agosto de 2012</fecha-lanzamiento>
+            <ranking-actual>https://csgostats.gg/leaderboards</ranking-actual>
+            <trailer>https://www.youtube.com/embed/edYCtaNueQY</trailer>
+            <etiquetas>csgo, cs, go, counter, strike, global, ofensive</etiquetas>
+        </csgo>
+    </todosJuegos>
+    <proximamente>
+        <titulo>Próximos torneos y ligas de Esports</titulo>
+        <torneo1>Dota 2 el 3 de Diciembre</torneo1>
+        <torneo2>League Of Leyends el 16 de Enero</torneo2>
+        <torneo3>CS:GO 2 el 23 de Febrero</torneo3>
+        <torneo4>Call Of Duty: Warzone el 2 de Marzo</torneo4>
+    </proximamente>
+    <ultimasNoticias>
+        <titulo>Últimas noticias del mundo de los Esports</titulo>
+        <noticia1>Vodafone Giants pierde a su cabeza de grupo</noticia1>
+        <link1>https://www.google.es</link1>
+        <noticia2>Heretics demuestra su valía en Warzone</noticia2>
+        <link2>https://www.wikipedia.es</link2>
+        <noticia3>Nuevo escándalo sensacionalista genérico</noticia3>
+        <link3>https://shorturl.at/lzI29</link3>
+        <noticia4>Como llegar a master en todos los juegos, claro clickbait</noticia4>
+        <link4>https://www.youtube.com/watch?v=dQw4w9WgXcQ</link4>
+    </ultimasNoticias>
+</evolution>

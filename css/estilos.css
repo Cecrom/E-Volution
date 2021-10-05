@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#busquedaFallida{
+  border: 0.2em black solid;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+#banner {
+  display: flex;
+  top: 0;
+  width: 100%;
+  background-color: rgb(212, 104, 104);
+  align-items: center;
+  justify-content: space-between;
+}
+
+#red1{
+  order: 1;
+  width: auto;
+  max-height: 5rem;
+}
+
+#red2{
+  order: 2;
+  width: auto;
+  max-height: 5rem;
+}
+
+#logo {
+  order: 3;
+  width: auto;
+  max-height: 5rem;
+}
+
+#botonMenu {
+  order: 4;
+  width: 6em;
+  height: 5em;
+}
+
+#botonMenu img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#menu {
+  display: none;
+  overflow: auto;
+  position: fixed;
+  right: 0%;
+  top: 0;
+  z-index: 1;
+  border-style: solid;
+  border-top: none;
+  background-color: rgb(212, 104, 104);
+  width: 20em;
+  height: auto;
+}
+
+#listaMenu {
+  list-style: none;
+}
+
+#equisMenu {
+  width: 2em;
+  height: 2em;
+}
+
+#tablaProximamente {
+  margin: 0 auto;
+}
+
+#tablaProximamente table, th, td {
+  border: 2px solid black;
+  text-align: center;
+  vertical-align: center;
+}
+
+.titulosOtros {
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.textoOtros {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.games {
+  margin-top: 2%;
+  columns: 2;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.games li {
+  padding-bottom: 2%;
+  margin-right: -10%;
+  margin-left: -10%;
+}
+
+.games img {
+  width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#equisCerrarJuegoAbierto {
+  width: 2em;
+  height: auto;
+}
+
+#juegoAbierto {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 15%;
+  top: 10%;
+  width: 70%;
+  height: auto;
+  overflow: auto;
+  background-color: white;
+}
+
+.descripcion {
+  margin-top: auto;
+  width: 100%;
+  font-size: 50px;
+}
+
+.descripcion td {
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+
+#proximamente {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+#busquedaHecha{
+  display: none;
+}
+
+#ultimasNoticias {
+  display: none;
+  margin-left: 1%;
+  width: 100%;
+  height: 100%;
+}
+.contenedor{
+  /* Aplicamos a todas nuestras clases contenedor un margen automático y le damos una pequeña separación para que no quede solapada la web.*/
+      width: 98%;
+      margin:auto;
+
+  }
+
+footer{
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  height: 15%;
+
+}
+/* Hacemos el contenedor flexible para que cuando cambiemos el tamaño vaya adaptandose y no desaparezcan los iconos.*/
+footer .contenedor{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.copy{
+  margin-top:4%;
+  font-size:30px;
+  color:white;
+  margin-left:2%;
+}
+
+.sociales{
+  margin-top:3%;
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+
+}
+
+.sociales a{
+color:rgb(255, 255, 255);
+text-decoration: none;
+
+}
+
+/* Cuando el tamaño sea tipo tablet aproximadamente haremos que la anchura de los iconos sociales se vuelva automática.*/
+@media(min-width:768px){
+
+  .sociales{
+      width: auto;
+  }
+}
+
+/* Cuando el tamaño sea tipo pc aproximadamente haremos que la anchura de los contenedores y del footer sea de 1000 px y haya espacios en medio entre los iconos.*/
+@media(min-width:1024px){
+
+  .contenedor{
+      width: 1000px;
+  }
+
+  footer .contenedor{
+      justify-content: space-between;
+  }
+}

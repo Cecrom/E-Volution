@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>-Volution</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="recursos\logo1Icon.png" />
+  <link rel="stylesheet" href="css/fontello.css">
+</head>
+
+<body onload="cargarCuerpo()">
+  <div id="banner">
+    <div><a href="https://twitter.com/" target="_blank"><img src="recursos\logoTwitter.png" id="red1"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="recursos\logoInstagram.png" id="red2"></a>
+    </div>
+    <div id="divLogo" onclick="inicio()" class="clickable"><img src="recursos\logo1.png" id="logo"></div>
+    <button id="botonMenu" onclick="abrirMenu()"><img src="recursos\botonMenu.png"></button>
+    <div id="menu">
+      <ul id="listaMenu">
+        <li>
+          <input type="text" id="buscador" value=""><button onclick="buscador()"><span class="material-icons">search</span></button><button onclick="cerrarMenu()"><img id="equisMenu" src="recursos\equis.png"></button>
+        </li>
+        <li></li>
+        <li><button onclick="inicio()">Inicio</button></li>
+        <li><button onclick="cargarXMLOtros('datos.xml','proximamente')">Próximamente</button></li>
+        <li><button onclick="cargarXMLOtros('datos.xml','ultimasNoticias')">Últimas Noticias</button></li>
+      </ul>
+    </div>
+  </div>
+  <div id="cuerpo"></div>
+  <div id="busquedaHecha"></div>
+  <div id="juegoAbierto"></div>
+  <div id="proximamente"></div>
+  <div id="ultimasNoticias"></div>
+</body>
+<footer>
+  <!--- Por último creamos el pie de página con los iconos sociales cargados en el css de fontello y el copyright. --->
+  <div class="contenedor">
+    <p class="copy">E-VOLUTION &copy; 2021</p>
+    <div class="sociales">
+      <a class="icon-facebook-official" href="#"></a>
+      <a class="icon-twitter" href="#"></a>
+      <a class="icon-instagram" href="#"></a>
+      <a class="icon-mail" href="#"></a>
+    </div>
+    <p class="copy">Manuel Garrido | Carlos Font</p>
+  </div>
+</footer>
+<script src="funcionalidad.js"></script>
+
+</html>
