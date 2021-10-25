@@ -34,7 +34,7 @@
         <csgo>
             <identificador>csgo</identificador>
             <nombre>CS:GO</nombre>
-            <imagen>recursos\lol.jpg</imagen>
+            <imagen>recursos\csgo.jpg</imagen>
             <descripcion>Counter-Strike: Global Offensive (CS:GO) es un videojuego de disparos en primera persona desarrollado por Valve Corporation en cooperación con Hidden Path Entertainment, y es el cuarto juego de la saga Counter-Strike, sin contar Counter-Strike: Online.</descripcion>
             <fecha-lanzamiento>21 de agosto de 2012</fecha-lanzamiento>
             <ranking-actual>https://csgostats.gg/leaderboards</ranking-actual>
